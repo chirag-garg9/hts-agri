@@ -1,6 +1,7 @@
 
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
+
 import Home from './Components/Home/Home';
 import Community from './Components/Community/Community';
 import Innovation from './Components/Innovation/Innovation';
@@ -12,10 +13,12 @@ import {
   Routes,
 } from "react-router-dom";
 
+import Community from './Components/Community/Community'
+
+
 function App() {
   return (
-    <>
-     
+    <>    
      <Router>
      <Navbar/> 
       <Routes>
@@ -26,6 +29,9 @@ function App() {
         <Route path='/news' element={<News/>} />
       </Routes>
      </Router>
+
+     <Navbar/> 
+     <Community/>
     </>
   );
 }
