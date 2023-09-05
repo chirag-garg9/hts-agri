@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "react-router-dom";
+import {Link,useNavigate} from "react-router-dom";
 // import { useLocation } from 'react-router-dom';
 // require('./navbar.css');
 
@@ -14,7 +14,12 @@ const Navbar = () => {
         var navbar = document.getElementById('mobile-menu');
         navbar.classList.toggle("hidden");
     }
+    let navigate=useNavigate();
 
+    const handlesignout=()=>{
+        localStorage.removeItem('token');
+        navigate('/');
+    }
 
     return (
         <div>
@@ -64,7 +69,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         {/* user info */}
-                        <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                        {localStorage.getItem('token')?<div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                           
                             <button type="button" className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                                 <span className="absolute -inset-1.5"></span>
@@ -89,10 +94,27 @@ const Navbar = () => {
                                    
                                     <a href="/" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
                                     <a href="/" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
-                                    <button  className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</button>
+                                    <button  className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2" onClick={handlesignout}>Sign out</button>
                                 </div>
                             </div>
                         </div>
+                        :
+
+                        <div className=" space-x-4">
+          <Link
+            to="/signup"
+            className="bg-green-500 text-white font-semibold px-4 py-2 rounded hover:bg-green-600 transition duration-300"
+          >
+            Sign Up
+          </Link>
+          <Link
+            to="/login"
+            className="bg-blue-500 text-white font-semibold px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
+          >
+            Login
+          </Link>
+        </div>
+        }
                     </div>
                 </div>
 

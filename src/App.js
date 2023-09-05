@@ -12,6 +12,8 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
+import Signup from './Components/LoginAndsignup/Signup';
+import SignInSide from './Components/LoginAndsignup/Login';
 
 
 
@@ -27,6 +29,8 @@ function App() {
         <Route path='/community' element={<Community/>} />
         <Route path='/innovation' element={<Innovation/>} />
         <Route path='/news' element={<Newsss/>} />
+        <Route key={"login"} path='/login' element={<SignInSide/>} />
+        <Route path='/signup' element={<Signup/>} />
       </Routes>
      </Router>
 
