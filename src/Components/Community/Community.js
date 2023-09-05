@@ -37,6 +37,7 @@ function Community() {
       </div>
     </div>:
     // main code goes here
+    // aur iske aage component banake use karna
     "This is community "
     }
     </>
