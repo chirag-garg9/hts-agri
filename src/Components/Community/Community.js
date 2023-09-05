@@ -1,17 +1,4 @@
 
-import React from 'react'
-
-const Community = () => {
-  return (
-    <div>
-        this is community
-    </div>
-  )
-}
-
-export default Community
-
-// src/components/Home.js
 
 import React from 'react';
 import backgroundImage from './bg-image.jpg';

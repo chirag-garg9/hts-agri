@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import Community from './Components/Community/Community';
 import Innovation from './Components/Innovation/Innovation';
-import News from './Components/News/News';
+import Newsss from './Components/News/Newsss';
 
 import {
   BrowserRouter as Router,
@@ -13,7 +13,7 @@ import {
   Routes,
 } from "react-router-dom";
 
-import Community from './Components/Community/Community'
+
 
 
 function App() {
@@ -26,12 +26,11 @@ function App() {
         <Route path='/BOT' element={<Home/>} />
         <Route path='/community' element={<Community/>} />
         <Route path='/innovation' element={<Innovation/>} />
-        <Route path='/news' element={<News/>} />
+        <Route path='/news' element={<Newsss/>} />
       </Routes>
      </Router>
 
-     <Navbar/> 
-     <Community/>
+     
     </>
   );
 }
