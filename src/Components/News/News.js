@@ -1,3 +1,9 @@
+
+import React from 'react'
+
+
+export default News
+
 import React, { useState, useEffect } from 'react';
 import NewsList from './NewsList';
 
@@ -30,3 +36,4 @@ const News = () => {
 };
 
 export default News;
+

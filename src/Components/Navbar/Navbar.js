@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from "react-router-dom";
+// import { useLocation } from 'react-router-dom';
 // require('./navbar.css');
 
 const Navbar = () => {
@@ -12,6 +14,7 @@ const Navbar = () => {
         var navbar = document.getElementById('mobile-menu');
         navbar.classList.toggle("hidden");
     }
+
 
     return (
         <div>
@@ -48,11 +51,19 @@ const Navbar = () => {
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
                                     {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */ }
+
+                                    <Link to="/" className={`bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page`}>Home</Link>
+                                    <Link to="/BOT" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">BOT</Link>
+                                    <Link to="/community" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Community</Link>
+                                    <Link to="/innovation" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Innovation</Link>
+                                    <Link to="/news" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">News</Link>
+
                                     <a href="/" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
                                     <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">BOT</a>
                                     <a href="#Community" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Community</a>
                                     <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Innovation</a>
                                     <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">News</a>
+
                                 </div>
                             </div>
                         </div>
@@ -82,7 +93,7 @@ const Navbar = () => {
                                    
                                     <a href="/" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
                                     <a href="/" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
-                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
+                                    <button  className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</button>
                                 </div>
                             </div>
                         </div>
@@ -93,10 +104,11 @@ const Navbar = () => {
                 <div className="sm:hidden" id="mobile-menu" >
                     <div className="space-y-1 px-2 pb-3 pt-2" >
 
-                        <a href="/" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
-                        <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
-                        <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-                        <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+                        <Link to="/" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</Link>
+                        <Link to="/BOT" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">BOT</Link>
+                        <Link to="/community" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Community</Link>
+                        <Link to="/innovation" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Innovation</Link>
+                        <Link to="/news" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">News</Link>
                     </div>
                 </div>
             </nav>
