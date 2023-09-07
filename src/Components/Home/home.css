@@ -1,0 +1,10 @@
+.section{
+    
+background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+color: white;
+    
+}
+.section h1{
+   
+    text-shadow: 1px 1px 4px rgb(19, 176, 228);
+}
