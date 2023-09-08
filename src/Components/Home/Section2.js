@@ -3,7 +3,7 @@ import './home.css';
 const Section2 = (props) => {
     return (
         <div className="mx-0 my-0 py-4 h-screen section2 flex">
-        <div className=" mx-6 left-sec2">
+        <div className=" mx-6 left-sec2 min-h-screen">
             <h2 className="px-10 py-10 text-5xl text-center font-semibold transition ease-in-out delay-150 duration-300">{props.title}</h2>
             <p className="px-20 py-0 text-left text-2xl font-medium">AI powered ChatBOT to clear all your queries</p>
             <p>

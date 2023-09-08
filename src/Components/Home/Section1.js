@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+
 const Section1 = (props) => {
     return (
       <div className="mx-0 my-0  h-screen flex section">
