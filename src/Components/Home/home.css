@@ -1,10 +1,54 @@
 .section{
     
-background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+background-image: url("./images/bg1.jpeg");
 color: white;
     
 }
 .section h1{
    
     text-shadow: 1px 1px 4px rgb(19, 176, 228);
+}
+
+.section2 img{
+    height: 3%;
+    width: 3%;    
+}
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+.right-sec2{
+    width: 70%;
+}
+.right-sec2 img{
+    height: 80%;
+    width: 80%;
+}
+.section3{
+    color: white;
+    background: url("./images/sec3-bg.png");
+}
+.section4 h2{
+    color: rgb(0, 110, 255);
+    
+}
+.sec-4-cardtext{
+    color: rgb(0, 119, 255);
+}
+
+.section5 h2{
+    color: rgb(33, 158, 33);
+}
+.sec-5-cardtext{
+    color: rgb(67, 223, 124);
 }
