@@ -4,11 +4,11 @@ import "./newcom.css"
 const Newcom = () => {
   return (
 
-    <div className='bgset'>
+    <div className=''>
     <div className='d-flex align-middle justify-center'>
             <div className="box-border max-w-7xl mx-4 sm:columns-1 md:columns-2 lg:columns-3 xl:columns-3 d-flex">
       {/* <!-- Card--> */}
-      <article className="mb-4 break-inside p-6 rounded-xl bg-white dark:bg-slate-800 flex flex-col bg-clip-border">
+      <article className="mb-4 break-inside p-6 rounded-xl bg-slate-200 bg-opacity-60  flex flex-col bg-clip-border">
         <div className="flex pb-6 items-center justify-between">
           <div className="flex">
             <a className="inline-block mr-4" href="/">
@@ -136,7 +136,7 @@ const Newcom = () => {
    <div className='d-flex align-middle justify-center'>
             <div className="box-border max-w-7xl mx-4 sm:columns-1 md:columns-2 lg:columns-3 xl:columns-3 d-flex">
       {/* <!-- Card--> */}
-      <article className="mb-4 break-inside p-6 rounded-xl bg-white dark:bg-slate-800 flex flex-col bg-clip-border">
+      <article className="mb-4 break-inside p-6 rounded-xl bg-slate-200 bg-opacity-60 flex flex-col bg-clip-border">
         <div className="flex pb-6 items-center justify-between">
           <div className="flex">
             <a className="inline-block mr-4" href="/">
@@ -297,7 +297,7 @@ const Newcom = () => {
       <div className='d-flex align-middle justify-center'>
             <div className="box-border max-w-7xl mx-4 sm:columns-1 md:columns-2 lg:columns-3 xl:columns-3 d-flex">
       {/* <!-- Card--> */}
-      <article className="mb-4 break-inside p-6 rounded-xl bg-white dark:bg-slate-800 flex flex-col bg-clip-border">
+      <article className="mb-4 break-inside p-6 rounded-xl bg-slate-200 bg-opacity-60 flex flex-col bg-clip-border">
         <div className="flex pb-6 items-center justify-between">
           <div className="flex">
             <a className="inline-block mr-4" href="/">

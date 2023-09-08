@@ -66,7 +66,7 @@ export class Newsss extends Component {
 
   render() {
     return (
-      <>
+      <div className="news-bg">
         <h1 className="text-center m-4">
          <div className="flex align-middle justify-center m-2"><img src={require('./sprout_1635309.png')} alt="" className="h-8 w-8"/> <h1 className="text-lg sm:text-3xl">Agriculture News</h1></div>
         </h1>
@@ -105,7 +105,7 @@ export class Newsss extends Component {
         </InfiniteScroll>
        
 
-      </>
+      </div>
     );
   }
 }
