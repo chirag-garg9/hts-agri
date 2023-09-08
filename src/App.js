@@ -14,6 +14,8 @@ import {
 } from "react-router-dom";
 import Signup from './Components/LoginAndsignup/Signup';
 import SignInSide from './Components/LoginAndsignup/Login';
+import Footer from './Components/Footer/Footer';
+
 
 
 
@@ -32,6 +34,7 @@ function App() {
         <Route key={"login"} path='/login' element={<SignInSide/>} />
         <Route path='/signup' element={<Signup/>} />
       </Routes>
+     <Footer/>
      </Router>
 
      
