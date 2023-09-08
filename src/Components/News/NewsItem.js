@@ -10,7 +10,7 @@ export class NewsItem extends Component {
   render() {
     let { title, description, ImageUrl, NewsUrl, author, time } = this.props;
     return (
-      <div className="my-2 ">
+      <div className="my-2  ">
         <div className="card bg-slate-200 bg-opacity-60 ">
           {/* badge */}
           <div>

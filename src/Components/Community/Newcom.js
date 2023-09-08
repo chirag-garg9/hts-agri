@@ -4,7 +4,7 @@ import "./newcom.css"
 const Newcom = () => {
   return (
 
-    <div className=''>
+    <div className='comm-bg m-0 p-4'>
     <div className='d-flex align-middle justify-center'>
             <div className="box-border max-w-7xl mx-4 sm:columns-1 md:columns-2 lg:columns-3 xl:columns-3 d-flex">
       {/* <!-- Card--> */}

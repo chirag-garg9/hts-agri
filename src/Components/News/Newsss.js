@@ -3,6 +3,7 @@ import NewsItem from "./NewsItem";
 import Spin from "./Spin";
 import PropTypes from "prop-types";
 import InfiniteScroll from "react-infinite-scroll-component";
+import './News.css'
 
 export class Newsss extends Component {
   static defaultProps = {
@@ -66,8 +67,8 @@ export class Newsss extends Component {
 
   render() {
     return (
-      <div className="news-bg">
-        <h1 className="text-center m-4">
+      <div className="news-bg m-0">
+        <h1 className="text-center p-4 ">
          <div className="flex align-middle justify-center m-2"><img src={require('./sprout_1635309.png')} alt="" className="h-8 w-8"/> <h1 className="text-lg sm:text-3xl">Agriculture News</h1></div>
         </h1>
 
@@ -79,11 +80,11 @@ export class Newsss extends Component {
           hasMore={this.state.article.length !== this.state.totalResult}
           loader={<Spin />}
         >
-          <div className="container">
-          <div className="row my-3">
+          <div className="container  ">
+          <div className="row my-3 ">
             {this.state.article.map((element) => {
               return (
-                <div className="col-md-4 " key={element.url}>
+                <div className="col-md-4  " key={element.url}>
                   <NewsItem
                     title={element.title?element.title.slice(0, 40) : ""}
                     description={element.description ? element.description.slice(0, 150) : ""}
