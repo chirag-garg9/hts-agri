@@ -29,7 +29,6 @@ function App() {
      <Navbar/> 
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/BOT' element={<Home/>} />
         <Route path='/community' element={<Community/>} />
         <Route path='/innovation' element={<Innovation/>} />
         <Route path='/news' element={<Newsss/>} />
