@@ -1,0 +1,254 @@
+.box {
+    height: 492px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .box .footer {
+    background-color: transparent;
+    height: 492px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .box .copyright {
+    height: 47px;
+    left: 0;
+    position: absolute;
+    top: 445px;
+    width: 1922px;
+  }
+  
+  .box .line {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: -1px;
+    width: 1920px;
+  }
+  
+  .box .copyright-organick {
+    color: #515b5f;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 610px;
+    letter-spacing: 0;
+    line-height: 29.8px;
+    position: absolute;
+    text-align: center;
+    top: 17px;
+    white-space: nowrap;
+  }
+  
+  .box .text-wrapper {
+    color: #515b5f;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 29.8px;
+  }
+  
+  .box .span {
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .box .utility-pages {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    left: 1323px;
+    position: absolute;
+    top: 0;
+    width: 285px;
+  }
+  
+  .box .div {
+    color: #274c5b;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .box .style-guide-not {
+    color: #515b5f;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 49.1px;
+    position: relative;
+    width: 285px;
+  }
+  
+  .box .img {
+    height: 336px;
+    left: 1272px;
+    object-fit: cover;
+    position: absolute;
+    top: 2px;
+    width: 1px;
+  }
+  
+  .box .about {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    left: 688px;
+    position: absolute;
+    top: 0;
+    width: 543px;
+  }
+  
+  .box .logo {
+    height: 53.72px;
+    position: relative;
+    width: 200.79px;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #274c5b;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 38px;
+    font-weight: 700;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    white-space: nowrap;
+  }
+  
+  .box .logo-2 {
+    height: 56px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 39px;
+  }
+  
+  .box .content {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 49px;
+    position: relative;
+    width: 543px;
+  }
+  
+  .box .simply-dummy-text-of {
+    color: #515b5f;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 29.8px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 543px;
+  }
+  
+  .box .follow {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+    width: 285px;
+  }
+  
+  .box .element {
+    background-color: #eff6f1;
+    border-radius: 30px;
+    height: 60px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .box .insta {
+    height: 19px;
+    left: 20px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+  }
+  
+  .box .fb {
+    height: 18px;
+    left: 20px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+  }
+  
+  .box .twiter {
+    height: 17px;
+    left: 20px;
+    position: absolute;
+    top: 22px;
+    width: 21px;
+  }
+  
+  .box .pintrest {
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 20px;
+  }
+  
+  .box .line-2 {
+    height: 336px;
+    left: 646px;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    width: 1px;
+  }
+  
+  .box .contact-us {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    left: 311px;
+    position: absolute;
+    top: 0;
+    width: 285px;
+  }
+  
+  .box .email-needhelp {
+    color: #515b5f;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 29.7px;
+    position: relative;
+    text-align: right;
+    width: 285px;
+  }
+  
+  .box .text-wrapper-3 {
+    font-weight: 700;
+  }
+  
+  .box .text-wrapper-4 {
+    font-family: "Open Sans-Regular", Helvetica;
+  }
