@@ -9,7 +9,7 @@ const Section3 = (props) => {
 
             <h2 className="px-10 py-10 text-5xl text-center font-semibold transition ease-in-out delay-150 duration-300">{props.title}</h2>
 
-            <div className=" flex items-center justify-center cards">
+            <div className=" flex items-center justify-evenly cards">
                 <Card
                     className="shadow-lg m-2 h-full w-1/3 transition ease-in-out delay-300 hover:translate-y-1 hover:scale-110 duration-200 flex items-center justify-items-center"
                     style={{ width: "18rem", height: "450px" }}
