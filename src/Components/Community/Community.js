@@ -39,9 +39,15 @@ function Community() {
       </div>
     </div>:
     // main code goes here
+
    <Newcom/>
     
   }
+
+    // aur iske aage component banake use karna
+    "This is community "
+    }
+
     </>
   );
 }
