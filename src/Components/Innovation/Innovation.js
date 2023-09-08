@@ -68,7 +68,7 @@ const cardsData = [
 function Innovation() {
   return (
     <>
-      <div>
+      <div className="inn-bg">
         <h1 class="text-4xl font-bold text-gray-900 mb-4 flex items-center justify-center">
           {" "}
           INNOVATION{" "}
