@@ -33,12 +33,12 @@ function Community() {
               </Link>
             </div>
           </div>
-        </div>
-      ) : (
+        </div>      ) : (
         <Newcom />
       )}
     </div>
-  );
-}
+    
+    
+      )  }
 
 export default Community;
