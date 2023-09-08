@@ -4,13 +4,13 @@ import Newcom from "./Newcom";
 
 function Community() {
   return (
-    <div className="m-20">
+    <div className="">
       {!localStorage.getItem("token") ? (
         <div
           id="Community"
-          className="bg-green-200 min-h-screen flex items-center justify-center"
+          className="comm-bg min-h-screen flex items-center justify-center"
         >
-          <div className="bg-white p-8 rounded-lg shadow-lg">
+          <div className="bg-slate-200 bg-opacity-60 p-8 rounded-lg shadow-lg">
             <h1 className="text-3xl font-semibold mb-4">
               Welcome to the Agriculture Community
             </h1>
