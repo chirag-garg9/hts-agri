@@ -9,7 +9,7 @@ const Footer = () => {
             <div class="w-full lg:w-6/12 px-4">
               <h4 class="text-3xl fonat-semibold text-white">Let's keep in touch!</h4>
               <h5 class="text-lg mt-0 mb-2 text-white">
-                Find us on any of these platforms, we respond 1-2 business days.
+                Find us on any of these platforms, we respond within 1-2 business days.
               </h5>
               <div class="mt-6 lg:mb-0 mb-6">
                 <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
@@ -30,7 +30,7 @@ const Footer = () => {
                   <span class="block uppercase text-white text-sm font-semibold mb-2">Useful Links</span>
                   <ul class="list-unstyled">
                     <li>
-                      <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="....">About Us</a>
+                      <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#about">About Us</a>
                     </li>
                     {/* <li>
                 <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
