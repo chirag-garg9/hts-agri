@@ -14,7 +14,7 @@ const Section6 = (props) => {
           <div className="mx-0 my-0 bg-black section6 h-150 flex flex-col">
           <h4 className="px-10 py-10 text-5xl text-center font-medium transition ease-in-out delay-150 duration-300">Team Code Bandits</h4>
           <div className="cards flex items-center justify-center">
-          <Card className="shadow-lg  floating m-2 h-72 w-100 transition ease-in-out delay-300 duration-200" style={{ width: '18rem' }}>
+          <Card className="shadow-lg m-2 h-50 w-100 transition ease-in-out delay-300 duration-200" style={{ width: '18rem' }}>
                     <Card.Body className=" flex flex-col items-center justify-items-center">
                         <Card.Title className=" text-center text-3xl">Ayush Shukla</Card.Title>
                         <Card.Text className="mt-10 mb-10 text-lg text-center">
@@ -32,7 +32,7 @@ const Section6 = (props) => {
                 </button></div>
                     </Card.Body>
                 </Card>
-                <Card className="shadow-lg  floating m-2 h-72 w-100 transition ease-in-out delay-300 duration-200" style={{ width: '18rem' }}>
+                <Card className="shadow-lg m-2 h-50 w-100 transition ease-in-out delay-300 duration-200" style={{ width: '18rem' }}>
                     <Card.Body className=" flex flex-col items-center justify-items-center">
                         <Card.Title className=" text-center text-3xl">Chirag Garg</Card.Title>
                         <Card.Text className="mt-10 mb-10 text-lg text-center">
@@ -50,7 +50,7 @@ const Section6 = (props) => {
                 </button></div>
                     </Card.Body>
                 </Card>
-                <Card className="shadow-lg  floating m-2 h-72 w-100 transition ease-in-out delay-300 duration-200" style={{ width: '18rem' }}>
+                <Card className="shadow-lg m-2 h-50 w-100 transition ease-in-out delay-300 duration-200" style={{ width: '18rem' }}>
                     <Card.Body className=" flex flex-col items-center justify-items-center">
                         <Card.Title className=" text-center text-3xl">Md Gulam Gaush</Card.Title>
                         <Card.Text className="mt-10 mb-10 text-lg text-center">
@@ -68,7 +68,7 @@ const Section6 = (props) => {
                 </button></div>
                     </Card.Body>
                 </Card>
-                <Card className="shadow-lg  floating m-2 h-72 w-100 transition ease-in-out delay-300 duration-200" style={{ width: '18rem' }}>
+                <Card className="shadow-lg m-2 h-50 w-100 transition ease-in-out delay-300 duration-200" style={{ width: '18rem' }}>
                     <Card.Body className=" flex flex-col items-center justify-items-center">
                         <Card.Title className=" text-center text-3xl">Praveen Patro</Card.Title>
                         <Card.Text className="mt-10 mb-10 text-lg text-center">
