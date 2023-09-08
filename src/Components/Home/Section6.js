@@ -6,18 +6,7 @@ import Card from "react-bootstrap/Card";
 const Section6 = (props) => {
   return (
     <div id="about" className="">
-      <div className="mx-10 mb-20 section6 h-150 flex flex-col">
-        
-        <p className="px-10 py-0 text-left text-gray-900 text-lg font-medium">
-          Our mission is: to leverage our skills and knowledge in computer
-          science to support and empower farmers. We firmly believe that the
-          fusion of cutting-edge technology with the primary sector, and
-          backbone of our nation - Agriculture, can revolutionize the sector.
-          Our primary aim is to bridge the gap between the digital world and
-          agriculture, making it accessible to every farmer, regardless of their
-          location or resources and connecting them on the same website.
-        </p>
-      </div>
+      
       <div className="mx-0 my-0 bg-black section6 h-150 flex flex-col">
       <h2 className="px-10 py-10 text-5xl text-center font-medium transition ease-in-out delay-150 duration-300">
           {props.title}
@@ -34,9 +23,9 @@ const Section6 = (props) => {
         <h4 className="px-10 py-10 text-5xl text-center font-medium transition ease-in-out delay-150 duration-300">
           Team Code Bandits
         </h4>
-        <div className="cards flex items-center justify-center px-6 pb-20">
+        <div className="cards flex items-center justify-center px-1 pb-20">
           <Card
-            className="shadow-lg m-2 h-50 w-100 transition ease-in-out delay-300 duration-200"
+            className="shadow-lg m-1 h-50 w-100 transition ease-in-out delay-300 duration-200"
             style={{ width: "18rem" }}
           >
             <Card.Body className=" flex flex-col items-center justify-items-center">
@@ -77,7 +66,7 @@ const Section6 = (props) => {
             </Card.Body>
           </Card>
           <Card
-            className="shadow-lg m-2 h-50 w-100 transition ease-in-out delay-300 duration-200"
+            className="shadow-lg m-1 h-50 w-100 transition ease-in-out delay-300 duration-200"
             style={{ width: "18rem" }}
           >
             <Card.Body className=" flex flex-col items-center justify-items-center">
@@ -118,7 +107,7 @@ const Section6 = (props) => {
             </Card.Body>
           </Card>
           <Card
-            className="shadow-lg m-2 h-50 w-100 transition ease-in-out delay-300 duration-200"
+            className="shadow-lg m-1 h-50 w-100 transition ease-in-out delay-300 duration-200"
             style={{ width: "18rem" }}
           >
             <Card.Body className=" flex flex-col items-center justify-items-center">
@@ -159,7 +148,7 @@ const Section6 = (props) => {
             </Card.Body>
           </Card>
           <Card
-            className="shadow-lg m-2 h-50 w-100 transition ease-in-out delay-300 duration-200"
+            className="shadow-lg m-1 h-50 w-100 transition ease-in-out delay-300 duration-200"
             style={{ width: "18rem" }}
           >
             <Card.Body className=" flex flex-col items-center justify-items-center">
