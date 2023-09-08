@@ -67,12 +67,12 @@ const Navbar = () => {
                                     {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */ }
 
                                     <Link to="/" className="bg-gray-900 text-white hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium  navbar"   >Home</Link>
-                                    <Link to="/BOT" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium navbar" >BOT</Link>
+                                   
                                     <Link to="/community" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium navbar" >Community</Link>
                                     <Link to="/innovation" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium navbar">Innovation</Link>
                                     <Link to="/news" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium navbar">News</Link>
                                     <Link to="/msp" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium navbar" >MSP</Link>
-                                 navbar
+                                
 
                                 </div>
                             </div>

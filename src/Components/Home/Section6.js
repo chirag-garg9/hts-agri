@@ -2,7 +2,7 @@ import React from "react";
 import './home.css';
 
 import Card from 'react-bootstrap/Card';
-import { Button } from "react-bootstrap";
+
 
 const Section6 = (props) => {
     return (
