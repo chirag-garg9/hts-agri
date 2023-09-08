@@ -6,6 +6,7 @@ import Home from './Components/Home/Home';
 import Community from './Components/Community/Community';
 import Innovation from './Components/Innovation/Innovation';
 import Newsss from './Components/News/Newsss';
+import Widget from '@auroraai-bot-platform/rasa-webchat';
 
 import {
   BrowserRouter as Router,
@@ -37,6 +38,15 @@ function App() {
         <Route path='/signup' element={<Signup/>} />
       </Routes>
      <Footer/>
+     <Widget
+      initPayload={""}
+      socketUrl={"http://localhost:5005"}
+      socketPath={"/socket.io/"}
+      customData={{"language": "en"}} // arbitrary custom data. Stay minimal as this will be added to the socket
+      title={"kisan"}
+      subtitle=""
+      languageList={'en'}
+    />
      </Router>
 
      
