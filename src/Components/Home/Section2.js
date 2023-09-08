@@ -14,7 +14,7 @@ const Section2 = (props) => {
                 </ul>
             </p>
             </div>
-            <div className="transition ease-in-out delay-300 hover:-translate-y-1 hover:scale-110 duration-300 flex items-center right-sec2">
+            <div className="transition ease-in-out slide-in-r2l delay-300 hover:-translate-y-1 hover:scale-110 duration-300 flex items-center right-sec2">
                 <img  src={require("./images/bot2.png")} alt="bot" />
             </div>
         </div>

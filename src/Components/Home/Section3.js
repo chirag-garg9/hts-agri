@@ -10,7 +10,7 @@ const Section3 = (props) => {
             <h2 className="px-10 py-10 text-5xl text-center font-semibold transition ease-in-out delay-150 duration-300">{props.title}</h2>
 
             <div className=" flex items-center justify-items-center cards">
-                <Card className="shadow-lg m-2 h-full w-1/3 transition ease-in-out delay-300 hover:translate-y-1 hover:scale-110 duration-200 flex items-center justify-items-center" style={{ width: '18rem' }}>
+                <Card className="shadow-lg m-2 h-full w-1/3 transition slide-up ease-in-out delay-300 hover:translate-y-1 hover:scale-110 duration-200 flex items-center justify-items-center" style={{ width: '18rem' }}>
                     <Card.Img variant="top" className="h-50 w-60" src={require("./images/community.png")} alt="community" />
                     <Card.Body>
                         <Card.Title className="text-center">Community Participation</Card.Title>
@@ -20,7 +20,7 @@ const Section3 = (props) => {
                     </Card.Body>
                 </Card>
 
-                <Card className="shadow-lg m-2 h-full w-1/3 transition ease-in-out delay-300 hover:translate-y-1 hover:scale-110 duration-200 flex items-center justify-items-center" style={{ width: '18rem' }}>
+                <Card className="shadow-lg m-2 h-full w-1/3 transition slide-up ease-in-out delay-300 hover:translate-y-1 hover:scale-110 duration-200 flex items-center justify-items-center" style={{ width: '18rem' }}>
                     <Card.Img variant="top" className="h-42 w-48" src={require("./images/trust.jpg")} alt="trusted" />
                     <Card.Body>
                         <Card.Title className="text-center">Trusted Answers</Card.Title>
@@ -30,7 +30,7 @@ const Section3 = (props) => {
                     </Card.Body>
                 </Card>
 
-                <Card className="shadow-lg m-2 h-full w-1/3 transition ease-in-out delay-300 hover:translate-y-1 hover:scale-110 duration-200 flex items-center justify-items-center" style={{ width: '18rem' }}>
+                <Card className="shadow-lg m-2 h-full w-1/3 transition slide-up ease-in-out delay-300 hover:translate-y-1 hover:scale-110 duration-200 flex items-center justify-items-center" style={{ width: '18rem' }}>
                     <Card.Img className="h-40 w-40 mt-2.5" variant="top" src={require("./images/user-friendly.png")} alt="user-friendly" />
                     <Card.Body>
                         <Card.Title className="text-center">User Friendly</Card.Title>

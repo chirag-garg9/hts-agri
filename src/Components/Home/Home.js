@@ -4,6 +4,7 @@ import Section2 from './Section2'
 import Section3 from './Section3'
 import Section4 from './Section4'
 import Section5 from './Section5'
+import Section6 from './Section6'
 const Home = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const Home = () => {
         <Section3 title="Active Community"/>
         <Section4 title="Groundbreaking Innovations"/>
         <Section5 title="Real-Time Market prices"/>
+        <Section6 title="About Us"></Section6>
     </div>
   )
 }
