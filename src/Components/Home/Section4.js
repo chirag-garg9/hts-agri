@@ -11,7 +11,8 @@ const Section4 = (props) => {
             <div className="flex items-center justify-items-center">
             <div className="sec4-left w-1/2 p-3 slide-in-l2r items-center justify-items-center "><img className="h-1/2 w-2/3 rotate-45 transition ease-in-out delay-300 hover:-translate-y-1 hover:scale-110 duration-300" src={require("./images/Innovations.png")} alt="innovation-bulb" /></div>
             <div className="sec4-right w-1/2 p-3">
-            <Card className="shadow-lg m-2 h-96 w-96 flex items-center justify-items-center" style={{ width: '18rem' }}>
+            
+            <Card className="shadow-lg m-2 h-80 flex items-center justify-items-center" style={{ width: '22rem' }}>
                     <Card.Body>
                         <Card.Title className="sec-4-cardtext text-center text-3xl">Recent advancements in Agro-Tech</Card.Title>
                         <Card.Text>
