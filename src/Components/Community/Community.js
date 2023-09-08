@@ -44,9 +44,6 @@ function Community() {
     
   }
 
-    // aur iske aage component banake use karna
-    "This is community "
-    }
 
     </>
   );
