@@ -17,7 +17,7 @@ const Section3 = (props) => {
             >
               <Card.Img
                 variant="top"
-                className="h-50 w-60 mb-4"
+                className="h-50 w-60 mb-4 bg-blend-screen"
                 src={require("./images/community.png")}
                 alt="community"
               />

@@ -1,31 +1,20 @@
 import React from "react";
-import './home.css';
-import Card from 'react-bootstrap/Card';
-import { Button } from "react-bootstrap";
-
-const Section4 = (props) => {
-    return (
-        <div className="mx-0 my-0 section4 h-screen flex flex-col">
-
-            <h2 className="px-10 py-10 text-5xl text-center font-semibold transition ease-in-out delay-150 duration-300">{props.title}</h2>
-            <div className="flex items-center justify-items-center">
-            <div className="sec4-left w-1/2 p-3 slide-in-l2r items-center justify-items-center "><img className="h-1/2 w-2/3 rotate-45 transition ease-in-out delay-300 hover:-translate-y-1 hover:scale-110 duration-300" src={require("./images/Innovations.png")} alt="innovation-bulb" /></div>
-            <div className="sec4-right w-1/2 p-3">
-            
-            <Card className="shadow-lg m-2 h-80 flex items-center justify-items-center" style={{ width: '22rem' }}>
-                    <Card.Body>
-                        <Card.Title className="sec-4-cardtext text-center text-3xl">Recent advancements in Agro-Tech</Card.Title>
-                        <Card.Text>
-                            The latest ground-breaking innovations and advancements are displayed along with an option to add your own innovation! The top ones stand a chance to get Seed funding by interested investors or respective governments.   
-                        </Card.Text>
-                        <Button className="mt-8 flex items-center justify-center" href="/innovation">Go to Innovation <span class="material-symbols-outlined">
-east
-</span></Button>
-                    </Card.Body>
-                </Card>
-            </div>
-            </div>
-        </div>
-    )
-}
-export default Section4
+import "./home.css";
+const Section2 = (props) => {
+  return (
+    <div className="mx-0 my-0 py-4 h-screen section2 flex items-center">
+      <div className="transition ease-in-out slide-in-r2l delay-300 hover:-translate-y-1 hover:scale-110 duration-300 flex items-center right-sec2  ">
+        <img src={require("./images/Innovations.png")} alt="innovation-bulb" className="" />
+      </div>
+      <div className=" mx-6 left-sec2 h-auto ">
+        <h2 className="pl-20 py-10 text-5xl text-left font-semibold transition ease-in-out delay-150 duration-300">
+          {props.title}
+        </h2>
+        <p className="px-20 pb-10 text-left text-xl font-medium max-w-7xl">
+        In today's rapidly evolving world, innovation is the driving force behind progress. It's the spark that ignites change, pushes boundaries, and transforms industries. To celebrate and foster this spirit of innovation, an exciting event called "Innovate and Elevate" has emerged on the global stage. This event is a platform where the latest ground-breaking innovations and advancements are showcased, with the unique opportunity for inventors to pitch their ideas for seed funding by interested investors or respective governments.
+        </p>
+      </div>
+    </div>
+  );
+};
+export default Section2;

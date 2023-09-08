@@ -132,10 +132,10 @@ const Navbar = () => {
                     <div className="space-y-1 px-2 pb-3 pt-2" >
 
                         <Link to="/" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</Link>
-                        <Link to="/BOT" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">BOT</Link>
                         <Link to="/community" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Community</Link>
                         <Link to="/innovation" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Innovation</Link>
                         <Link to="/news" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">News</Link>
+                        <Link to="/msp" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">MSP</Link>
                     </div>
                 </div>
             </nav>
