@@ -7,7 +7,7 @@ import Section5 from './Section5'
 const Home = () => {
   return (
     <div>
-        <Section1 title="Welcome to the Future of Agriculture!" content="Explore, Learn, and Grow with Our Innovative Agricultural Chatbot. Your Trusted Partner in Farming Knowledge, news, latest market prices and Insights." image="https://m.economictimes.com/thumb/msid-77969178,width-1200,height-900,resizemode-4,imgsize-727760/agri-tech.jpg" alt="field"/>
+        <Section1  content="Explore, Learn, and Grow with Our Innovative Agricultural Chatbot. Your Trusted Partner in Farming Knowledge, news, latest market prices and Insights." image="https://m.economictimes.com/thumb/msid-77969178,width-1200,height-900,resizemode-4,imgsize-727760/agri-tech.jpg" alt="field"/>
         <Section2 title="AI-Powered ChatBOT" />
         <Section3 title="Active Community"/>
         <Section4 title="Groundbreaking Innovations"/>

@@ -15,6 +15,7 @@ import {
 import Signup from './Components/LoginAndsignup/Signup';
 import SignInSide from './Components/LoginAndsignup/Login';
 import Footer from './Components/Footer/Footer';
+import Msp from './Components/MSP/Msp';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route path='/community' element={<Community/>} />
         <Route path='/innovation' element={<Innovation/>} />
         <Route path='/news' element={<Newsss/>} />
+        <Route path='/msp' element={<Msp/>} />
         <Route key={"login"} path='/login' element={<SignInSide/>} />
         <Route path='/signup' element={<Signup/>} />
       </Routes>
