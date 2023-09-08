@@ -3,6 +3,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import backgroundImage from './bg-image.jpg';
+import Newcom from './Newcom';
+
 
 
 function Community() {
@@ -37,9 +39,15 @@ function Community() {
       </div>
     </div>:
     // main code goes here
+
+   <Newcom/>
+    
+  }
+
     // aur iske aage component banake use karna
     "This is community "
     }
+
     </>
   );
 }
