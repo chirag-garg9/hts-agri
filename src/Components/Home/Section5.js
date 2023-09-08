@@ -14,7 +14,7 @@ const Section5 = (props) => {
       <div className="flex items-center justify-items-center">
         <div className="sec5-left w-1/2 p-16 flex items-center justify-items-center">
           <Card
-            className="shadow-lg m-2 h-96 w-100 transition ease-in-out delay-300 duration-200"
+            className="shadow-lg m-2 h-100 w-100 transition ease-in-out delay-300 duration-200"
             style={{ width: "18rem" }}
           >
             <Card.Body className=" flex flex-col items-center justify-items-center">

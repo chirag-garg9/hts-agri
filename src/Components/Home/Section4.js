@@ -1,5 +1,8 @@
 import React from "react";
 import "./home.css";
+
+import { Button } from "react-bootstrap";
+
 const Section2 = (props) => {
   return (
     <div className="mx-0 my-0 py-4 h-screen section2 flex items-center">
@@ -12,7 +15,14 @@ const Section2 = (props) => {
         </h2>
         <p className="px-20 pb-10 text-left text-xl font-medium max-w-7xl">
         In today's rapidly evolving world, innovation is the driving force behind progress. It's the spark that ignites change, pushes boundaries, and transforms industries. To celebrate and foster this spirit of innovation, an exciting event called "Innovate and Elevate" has emerged on the global stage. This event is a platform where the latest ground-breaking innovations and advancements are showcased, with the unique opportunity for inventors to pitch their ideas for seed funding by interested investors or respective governments.
+        <div><Button
+                className="w-48 my-4 flex items-center justify-center"
+                href="/innovation"
+              >
+                Go to Innovation <span class="material-symbols-outlined">east</span>
+              </Button></div>
         </p>
+        
       </div>
     </div>
   );
