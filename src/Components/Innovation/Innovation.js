@@ -88,6 +88,7 @@ function Innovation() {
           </div>
         </div>
       </div>
+      <div className="add"><button><img src={require("./add.svg").default} alt="add-new-post" /></button></div>
     </>
   );
 }
