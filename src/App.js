@@ -6,7 +6,7 @@ import Home from './Components/Home/Home';
 import Community from './Components/Community/Community';
 import Innovation from './Components/Innovation/Innovation';
 import Newsss from './Components/News/Newsss';
-import Widget from '@auroraai-bot-platform/rasa-webchat';
+
 
 import {
   BrowserRouter as Router,
