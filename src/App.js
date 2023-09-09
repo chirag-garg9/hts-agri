@@ -17,6 +17,7 @@ import Signup from './Components/LoginAndsignup/Signup';
 import SignInSide from './Components/LoginAndsignup/Login';
 import Footer from './Components/Footer/Footer';
 import Msp from './Components/MSP/Msp';
+import Bot from './Components/Bot/Bot';
 
 
 
@@ -37,15 +38,7 @@ function App() {
         <Route path='/signup' element={<Signup/>} />
       </Routes>
      <Footer/>
-     <Widget
-      initPayload={""}
-      socketUrl={"http://localhost:5005"}
-      socketPath={"/socket.io/"}
-      customData={{"language": "en"}} // arbitrary custom data. Stay minimal as this will be added to the socket
-      title={"kisan"}
-      subtitle=""
-      languageList={'en'}
-    />
+      <Bot/>
      </Router>
 
      

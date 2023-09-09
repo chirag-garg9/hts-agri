@@ -1,52 +1,74 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./bot.css"
 import Widget from '@auroraai-bot-platform/rasa-webchat';
 
 const Bot = () => {
+    // const[Bottype,setBottype]=useState();
 
-    var Bottype;
-    const hindi=(event)=>{
-        Bottype="hindi";
-        event.target.style.display="none";
-    }
-    const english=(event)=>{
-        Bottype="english";
-        event.target.style.display="none";
-    }
+    
+   
+
+    // const hindi=(event)=>{
+    //     setBottype("hindi");
+    //   console.log(Bottype);
+       
+    // }
+    // const english=(event)=>{
+    //    setBottype("english");
+    //   console.log(Bottype);
+        
+    // }
   return (
     <div>
         <div className='parent'>
-            <div className='hindi' >
+            {/* <div className='hindi side-btn btn' >
                <button  onClick={hindi}>
-               मैं आपकी क्या सहायता कर सकता हूँ?
+                HI
                </button>
             </div>
-            <div className='english'>
+            <div className='english side-btn btn'>
                 <button onClick={english}>
-                    How may I help you?
+                    EN
                 </button>
-            </div>
-            <div className='mainbot'>
+            </div> */}
+            {/* <div className='mainbot'>
             {Bottype==="english"?
             <Widget
-      initPayload={"/greet"}
-      socketUrl={"http://localhost:5005"}
+      initPayload={""}
+      socketUrl={"http://localhost:6005"}
       socketPath={"/socket.io/"}
       customData={{"language": "en"}} // arbitrary custom data. Stay minimal as this will be added to the socket
       title={"AgroBot"}
-      subtitle="Harvesting Knowledge, Cultivating Prosperity"
+      subtitle="Harvesting Knowledge"
       languageList={'en'}
     />: 
     <Widget
-    initPayload={"/greet"}
-    socketUrl={"http://localhost:5006"}
+    initPayload={""}
+    socketUrl={"http://localhost:5005"}
     socketPath={"/socket.io/"}
-    customData={{"language": "en"}} // arbitrary custom data. Stay minimal as this will be added to the socket
+    customData={{"language": "hi"}} // arbitrary custom data. Stay minimal as this will be added to the socket
     title={"एग्रोबॉट"}
     subtitle="खेतों की भाषा में सहायक"
-    languageList={'en'}/>}
-            </div>
-        </div>    
+    languageList={'hi'}/>}
+            </div> */}
+        </div> 
+    {/* <Widget
+      initPayload={""}
+      socketUrl={"http://localhost:6005"}
+      socketPath={"/socket.io/"}
+      customData={{"language": "en"}} // arbitrary custom data. Stay minimal as this will be added to the socket
+      title={"AgroBot"}
+      subtitle="Harvesting Knowledge"
+      languageList={'en'}
+    /> */}
+      <Widget
+    initPayload={""}
+    socketUrl={"http://localhost:5005"}
+    socketPath={"/socket.io/"}
+    customData={{"language": "hi"}} // arbitrary custom data. Stay minimal as this will be added to the socket
+    title={"एग्रोबॉट"}
+    subtitle="खेतों की भाषा में सहायक"
+    languageList={'hi'}/> 
     </div>
   )
 }
