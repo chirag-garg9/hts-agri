@@ -3,3 +3,26 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.add{
+    bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 1rem;
+    position: fixed;
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(51, 160, 202);
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+}
+.add:hover{
+    transform: translate(-0.3rem, -0.3rem);
+    box-shadow: 2.5px 2.5px 2.5px black;
+    background-color: rgb(105, 186, 218) ;
+}
+.add img{
+    height: 3rem;
+    width: 3rem;
+    color: white;
+}

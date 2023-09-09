@@ -36,6 +36,7 @@ function Community() {
         </div>      ) : (
         <Newcom />
       )}
+      <div className="add"><button><img src={require("../Innovation/add.svg").default} alt="add-new-post" /></button></div>
     </div>
     
     
